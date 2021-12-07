@@ -1,0 +1,256 @@
+body {
+    background-color: #8AE3FF;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    list-style-type: none;
+    
+}
+
+#tarefaimg{
+
+background-image: url(tarefas.png);
+background-repeat: no-repeat;
+right: 10px;
+left: 410px;
+top: 5px;
+padding: 40px;
+position: absolute;
+width: 315px;
+}
+
+.conteudo {
+    
+    margin: 0 auto;
+    width: 100%;
+    max-width: 450px;
+    margin-top: 50px;
+    margin-bottom: 50px;;
+    padding: 55px;
+    border-radius: 12px;
+}
+
+.topo {
+    width: 232px;
+    padding: 50px;
+    border-radius: 12px;
+    display: flex;
+    border: #BB3C88 15px;
+    border-width: medium;
+    border-style: solid;
+    outline: none;
+    font-size: 1.2rem;
+    background: #f5f5f5 ;
+    color: black;
+    position: absolute;
+    top: 106px;
+    left: 438px;
+
+}
+.topo li{
+    list-style-type: none;
+    list-style: none;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+#inputNovaTarefa {
+    outline: none;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.topo button {
+background-image: url(img/botaomais.png);
+  background-repeat: no-repeat;
+  background-size: 80px 70px;
+  outline: none;
+  width: 45px;
+  border-radius: 12px;
+  position:fixed;
+  right: -38px;
+  padding: 35px 40px;
+  top: 534px;
+  left: 1259px;
+  cursor: pointer;
+}
+
+#listaTarefas {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#listaTarefas li {
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 94px;
+}
+
+.textoTarefa {
+    list-style-type: none;
+    border-radius: 12px;
+    border: #BB3C88 15px;
+    border-width: medium;
+    border-style: solid;
+    outline: none;
+    font-size: 1.2rem;
+    background: #f5f5f5 ;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 290px;
+    white-space: nowrap;
+    padding: 20px;
+    margin-top: 277px;
+}
+
+#PopupEditar {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: #ffffff;
+    border: 8px solid #BB3C88;
+    width: 415px;
+    border-radius: 12px;
+    z-index: 200;
+    display: none;
+}
+
+#PopupEditar.abrir {
+    display: block !important;
+}
+
+#JanelaPopupfundo{
+    position: fixed;
+    top: 0;
+    background-color: #8AE3FF;
+    bottom: 0;
+    left: 0;
+    opacity: 0.9;
+    z-index: 100;
+    right: 0;
+    display: none;
+}
+
+#JanelaPopupfundo.abrir {
+   display: block !important;    
+}
+
+#PopupEditarBtnFechar {
+    background-image: url(img/fechar.png);
+    background-repeat: no-repeat;
+    background-size: 80px 70px;
+    padding: 35px 40px;
+    position: absolute;
+    top: -25px;
+    right: -18px; 
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #BB3C88;
+    color: #FFF;
+    outline: none;
+}
+
+form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.frm-linha {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.frm-linha label {
+    margin-bottom: 7px;
+}
+
+.frm-linha input {
+    padding: 15px;
+    border-radius: 12px;
+    outline: none;
+    border: 2px solid #BB3C88;
+    font-size: 1.2rem;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.frm-linha button {
+    background: #8AE3FF;
+    border: 1px solid #BB3C88;
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    color: #BB3C88;
+    cursor: pointer;
+    height: 50px;
+    font-size: 1.3rem;
+    outline: none;
+}
+
+.frm-linha button:hover {
+    background: #fffdfe;
+} 
+
+.btnAcaolix{
+    background-image: url(img/lixeira.png);
+    background-repeat: no-repeat;
+    background-size: 80px 70px;
+    outline: none;
+    width: 45px;
+    border-radius: 12px;
+    right: -209px;
+    padding: 35px 40px;
+    top: 104px;
+    left:104px;
+    cursor: pointer;
+    position: relative;
+    
+  
+  }
+
+  .btnAcaoed{
+    background-image: url(img/editar.png);
+    background-repeat: no-repeat;
+    background-size: 80px 70px;
+    outline: none;
+    width: 45px;
+    border-radius: 12px;
+    right: -38px;
+    padding: 35px 40px;
+    top: 178px;
+    left: 8px;
+    cursor: pointer;
+    position: relative;
+    
+  
+  }
+
+  #desenhobloco{
+    background-image: url(img/bloco1.png);
+    background-size: 118px 74px;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding: 49px;
+    right: 398px;
+    top: 7px;
+    width: 29px;
+    }
+
+    #calendario{
+        background-image: url(img/calendario.png);
+        background-size: 96px 91px;
+        background-repeat: no-repeat;
+        position: absolute;
+        padding: 123px 77px 5px 56px;
+        right: 934px;
+        top: 2px;
+      }
