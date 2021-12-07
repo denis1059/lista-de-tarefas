@@ -62,7 +62,7 @@ width: 315px;
 }
 
 .topo button {
-background-image: url(img/botaomais.png);
+background-image: url(botaomais.png);
   background-repeat: no-repeat;
   background-size: 80px 70px;
   outline: none;
@@ -143,7 +143,7 @@ background-image: url(img/botaomais.png);
 }
 
 #PopupEditarBtnFechar {
-    background-image: url(img/fechar.png);
+    background-image: url(fechar.png);
     background-repeat: no-repeat;
     background-size: 80px 70px;
     padding: 35px 40px;
@@ -201,7 +201,7 @@ form {
 } 
 
 .btnAcaolix{
-    background-image: url(img/lixeira.png);
+    background-image: url(lixeira.png);
     background-repeat: no-repeat;
     background-size: 80px 70px;
     outline: none;
@@ -218,7 +218,7 @@ form {
   }
 
   .btnAcaoed{
-    background-image: url(img/editar.png);
+    background-image: url(editar.png);
     background-repeat: no-repeat;
     background-size: 80px 70px;
     outline: none;
@@ -235,7 +235,7 @@ form {
   }
 
   #desenhobloco{
-    background-image: url(https://github.com/denis1059/lista-de-tarefas/blob/main/bloco1.png?raw=true);
+    background-image: url(bloco1.png);
     background-size: 118px 74px;
     background-repeat: no-repeat;
     position: absolute;
@@ -246,7 +246,7 @@ form {
     }
 
     #calendario{
-        background-image: url(img/calendario.png);
+        background-image: url(calendario.png);
         background-size: 96px 91px;
         background-repeat: no-repeat;
         position: absolute;
