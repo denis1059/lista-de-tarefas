@@ -1,54 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lista de Tarefas </title>
     <link href="style.css" rel="stylesheet" />
-    
+    <link rel="stylesheet" href="components/logo.css">
+    <link rel="stylesheet" href="components/input.css">
+    <link rel="stylesheet" href="components/body-input.css">
+    <link rel="stylesheet" href="components/buttons.css">
+    <link rel="stylesheet" href="components/lista.css">
     
 </head>
 
 <body>
-<div id="desenhobloco"></div>
-<div id="calendario"></div>
-<div id="tarefaimg"></div>
-</div>
-    <div class="conteudo">
-        <div class="topo">
-        <input type="text" id="inputNovaTarefa" placeholder= "Adicione uma nova tarefa">
+    <header>
+      <nav>
+       <div class="letras">
 
-        <button id= "btnAddTarefa"></button>
-        </div>
+         <div class="blocoimg"> 
+           <a class="calc1" href="#abrirModal"><button href="" class="calculadora" ></button></a>
+          
         
-        <ul id="listaTarefas"> </ul>
+           <img src="assets/img/bloco1.png" alt="imagem de um bloco">
+            </div>
+            <img class= "letra" src="assets/img/t.png" alt="logo">
+            <img class= "letra" src="assets/img/a.png" alt="logo">
+            <img class= "letra" src="assets/img/r.png" alt="logo">
+            <img class= "letra" src="assets/img/e.png" alt="logo">
+            <img class= "letra" src="assets/img/f.png" alt="logo">
+            <img class= "letra" src="assets/img/a.png" alt="logo">
+            <img class= "letra" src="assets/img/s.png" alt="logo">
+                <div class="calendarioimg"> 
+                    <img src="assets/img/calendario.png" alt="imagem calendario">
+                    <img class="menina" src="assets/img/menina.png" alt="menina">
+                        </div>
+                        
+                            </div>
+                           
+                             </nav>
+                             
+                                </header>
 
-        <li>
+        <section class="entrada"> 
+            <div class= "itens">
+                <div class="caixa">
+            <input type="text" class="inputNovaTarefa" placeholder= "Adicione uma nova tarefa">
+        </div>  
+            <button class= "btnAddTarefa"></button>
+           </div>
+    </section>
 
-        </li>
+    <div id="abrirModal" class="modal">
+        <a href="#fechar" title="Fechar" class="fechar">x</a>
+        <h2 class="calc">Calculadora</h2>
+         <img class="calc2" src="assets/img/calculadora.png" alt="">
+      </div>
+
+
+    <div class="listas">
+
+    <ul class="listaTarefas"></ul>
+
     </div>
 
-    <div id="PopupEditar">
-    <button id="PopupEditarBtnFechar"></button>
-    <h2 id="idTarefaEdicao"></h2>
-    <hr>
-
-    <form>
-       <div class="frm-linha">
-       <label for="nome">Editar</label>
-       <input type="text" id="inputTarefaEditar"> 
-       </div>
-
-       <div class="frm-linha">
-        <button id="btnAtualizarTarefa">Salvar</button>
-        </div>
-    </form>
-    </div>
-    <div id="JanelaPopupfundo"></div>
-
-<script src="script.js"></script>
+<script src="app.js"></script>
     
 </body>
 
