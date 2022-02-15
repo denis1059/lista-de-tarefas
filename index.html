@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="components/body-input.css">
     <link rel="stylesheet" href="components/buttons.css">
     <link rel="stylesheet" href="components/lista.css">
+    <link rel="stylesheet" href="components/calculadora.css">
     
 </head>
 
@@ -20,7 +21,7 @@
        <div class="letras">
 
          <div class="blocoimg"> 
-           <a class="calc1" href="#abrirModal"><button href="" class="calculadora" ></button></a>
+           <a class="calc1" href="#abrirModal"><button href="" class="imgCalculadora" ></button></a>
           
         
            <img src="assets/img/bloco1.png" alt="imagem de um bloco">
@@ -53,9 +54,57 @@
     </section>
 
     <div id="abrirModal" class="modal">
-        <a href="#fechar" title="Fechar" class="fechar">x</a>
-        <h2 class="calc">Calculadora</h2>
-         <img class="calc2" src="assets/img/calculadora.png" alt="">
+        
+        <div class="calc2">
+            <a href="#fechar" title="Fechar" class="fechar">X</a>
+            
+            <table>
+                <tr>
+                    <td colspan="4"><input type="text" class="display"></td>
+                </tr>
+    
+            <tr> 
+                <td><button class="btn btn-clear">C</button></td>
+                <td><button class="btn btn-num">(</button></td>
+                <td><button class="btn btn-num">)</button></td>
+                <td><button class="btn btn-num">/</button></td>
+            </tr>
+    
+            <tr> 
+                <td><button class="btn btn-num">7</button></td>
+                <td><button class="btn btn-num">8</button></td>
+                <td><button class="btn btn-num">9</button></td>
+                <td><button class="btn btn-num">*</button></td>
+            </tr>
+    
+            <tr> 
+                <td><button class="btn btn-num">4</button></td>
+                <td><button class="btn btn-num">5</button></td>
+                <td><button class="btn btn-num">6</button></td>
+                <td><button class="btn btn-num">+</button></td>
+            </tr>
+    
+            <tr> 
+                <td><button class="btn btn-num">1</button></td>
+                <td><button class="btn btn-num">2</button></td>
+                <td><button class="btn btn-num">3</button></td>
+                <td><button class="btn btn-num">-</button></td>
+            </tr>
+    
+            <tr> 
+                <td><button class="btn btn-num">.</button></td>
+                <td><button class="btn btn-num">0</button></td>
+                <td><button class="btn btn-del">&laquo;</button></td>
+                <td><button class="btn btn-eq">=</button></td>
+            </tr>
+    
+    
+            </table>
+
+
+        </div>
+
+
       </div>
 
 
@@ -66,6 +115,7 @@
     </div>
 
 <script src="app.js"></script>
+<script src="calculadora.js"></script>
     
 </body>
 

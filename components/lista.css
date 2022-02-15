@@ -36,7 +36,7 @@
     height: 273px;
 }
 
-.calculadora{
+.imgCalculadora{
     background-image: url(../assets/img/calculadora.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -51,12 +51,12 @@
 
 }
 
-.calculadora:hover{
+.imgCalculadora:hover{
     transform: scale(1.2);
 }
 
 @media only screen and (min-width: 850px) {
-    .calculadora {
+    .imgCalculadora {
       height: 140px;
       margin-right: 50px;
     }
@@ -99,21 +99,23 @@
     position: relative;
     margin: 10% auto;
     padding: 15px 20px;
-    background: #fff;
+    background: #006390;
+    height: 300px;
+    border-radius: 15px;
   }
 
   .fechar {
-    position: absolute;
-    width: 30px;
-    right: -15px;
-    top: -20px;
+    position: absolute; 
+    width: 21px;
     text-align: center;
-    line-height: 30px;
-    margin-top: 5px;
-    background: #ff4545;
-    border-radius: 50%;
-    font-size: 16px;
-    color: #8d0000;
+    background: #BB3C88;
+    border-radius: 25%;
+    color: white ;
+    padding: 12px;
+    margin-left: 407px;
+    text-decoration: none;
+    font-size: large;
+
   }
 
   .calc2{

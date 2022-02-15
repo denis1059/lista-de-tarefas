@@ -9,24 +9,29 @@
 }
 
 .btn{
+    color: white;
     width: 100%;
     height: 40px;
     font-size: 1em;
     border: none;
-    background-color: aqua;
+    background-color: #263238;
     cursor: pointer;
 }
 
 .btn:hover{
-    background-color: rgb(4, 139, 139);
+    background-color: #003b56;
 
 }
 
 .btn-eq{
-    background-color: blueviolet;
+    background-color: #BB3C88;
 }
 
 .btn-eq:hover{
-    background-color: rgb(100, 28, 168);
+    background-color: #a02970;
 
+}
+
+.calc{
+    color: blueviolet;
 }
